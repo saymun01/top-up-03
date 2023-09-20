@@ -1,0 +1,164 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+header {
+    padding: 42px;
+    background-color: #bfbfbf;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    position: fixed;
+    margin: 0px 35px 0px 0px;
+    /* border: black; */
+    width: 100%;
+    height: 10px;
+}
+
+.container {
+    width: 1450px;
+margin: auto;
+}
+    
+
+.logo {
+    width: 725px;
+    float: left;
+}
+
+.logo img {
+    width: 78px;
+}
+
+nav {
+    width: 725px;
+    float: left;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    padding: 40px 40px 40px 40px
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000b4;
+}
+
+/* banner */
+.banner {text-align: center;color: red;}
+.banner h1 {
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    /* box-shadow: rgb(179 179 179 / 0%) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
+    color: #05324b;
+    margin: 124px 0 -55px 0px;
+    padding: 75px;
+}
+
+.banner p {
+    text-align: center;
+    font-size: 30px;
+    /* box-shadow: rgba(20, 20, 31, 0.682) 0px 30px 60px -12px, rgba(0, 0, 0, 0.6) 0px 18px 36px -18px; */
+}
+
+.banner img {
+    text-align: center;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+    width: 60%;
+}
+
+/* completed project */
+
+.projects {
+    width: 50%;
+    float: left;
+}
+
+.project-left {
+    text-align: right;
+    padding: 0 20px 0 0;
+}
+
+.project-left h2 {
+
+font-size: 50px;
+
+color: red;
+}
+
+.project-left p {
+
+font-size: 20px;
+
+color: #05324b;
+}
+
+.project-right {
+
+}
+
+.project-right h2 {
+    padding: 0 0 0 20px;
+    font-size: 50px;
+    color: #05324b;
+}
+section{overflow: hidden;}
+
+/* blog section */
+.blog-parent {
+    display: flex;
+    
+}
+
+.blog {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    margin: 50px 39px 0px 50px;
+    border-radius: 10px;
+}
+
+.blog-item {}
+
+.blog-item-img {
+
+}
+
+.blog-item h3 {
+    color: #5796ec;
+    text-align: center;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 16px 24px 29px 24px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    
+}
+
+.blog-item p {
+    text-align: center;
+    color: deeppink;
+}
+
+.hovering:hover {
+    box-shadow: rgb(4, 4, 2) 0px 50px 100px -20px, rgb(9, 9, 3) 0px 30px 60px -30px;
+}
+.blog:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
